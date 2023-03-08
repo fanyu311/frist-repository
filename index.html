@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/piano.css">
+    <title>Galerie</title>
+    <style>
+        *{
+         padding: 0;
+        margin: 0;  
+             box-sizing: border-box;
+    }
+    header {
+        padding: 1% 2%;
+        background-color: antiquewhite;
+        text-align: center;
+    }
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+      li{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        width: 100px;
+      }
+    .card-img-overflow {
+    overflow: hidden;
+}
+.card-img {
+    width: 70%;
+    transition: transform .5s ease-in-out;
+}
+
+.card-img:hover {
+    transform: scale(1.5);
+}
+.card-body {
+    padding: 1em;
+    text-align: center;
+}
+.card-body h3{
+    color:rgb(111, 76, 145);
+}
+
+.card-body p {
+    margin-bottom: 1em;
+}
+.btn {
+    padding: .5em 1em;
+    border-radius: 5px;
+    
+}
+
+.btn-primary {
+    background-color:rgb(199, 176, 101);
+    transition: all .4s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #59afa8;
+  
+}
+    </style>
+</head>
+<body>
+    <header class="navbar">
+       <nav class="navbar-content">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo" width="80px"> </a>
+            <div class="container text-center">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Galerie</a></li>
+            </nav>
+     </header>
+    <main>
+        <section>
+            <div class="row">
+        <div class="card-img-overflow col-12 col-md-6 col-lg-4">
+            <img class="card-img" src="img/Bechstein--600x375.jpg.webp" alt="bechstein">
+        </div>
+        <div class="card-body ">
+            <h3>Bechstein</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+    </div>
+        <div class="card-img-overflow">
+            <img class="card-img" src="img/Bluthner-_-600x375.jpg.webp" alt="bluthner">
+        </div>
+        <div class="card-body">
+            <h3>Bluthner</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+        <div class="card-img-overflow">
+            <img class="card-img" src="img/Bosendorfer-600x375.jpg.webp" alt="Bosendorfer">
+        </div>
+        <div class="card-body">
+            <h3>Bosendorfer</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+        <div class="card-img-overflow">
+            <img class="card-img" src="img/Grotrian-Steinweg--600x375.jpg.webp" alt="Grotrian-Steinweg">
+        </div>
+        <div class="card-body">
+            <h3>Grotrian-Steinweg</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+        <div class="card-img-overflow">
+            <img class="card-img" src="img/Kawai-600x375.jpg.webp" alt="Kawai">
+        </div>
+        <div class="card-body">
+            <h3>Kawai</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+        <div class="card-img-overflow">
+            <img class="card-img" src="img/Yamaha-600x375.jpg.webp" alt="Yamaha">
+        </div>
+        <div class="card-body">
+            <h3>Yamaha</h3>
+            <p>Découvrir pour des moments de plaisir et de partage.</p>
+            <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+    </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

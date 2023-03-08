@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Mentor"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "figma site"
+	}
+}
